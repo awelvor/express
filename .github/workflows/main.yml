@@ -13,8 +13,7 @@ jobs:
       # you must check out the repository
       - name: Checkout
         uses: actions/checkout@v4
-      - run: npx express-generator
-      - run: npm install
-      - run: npm start
-
+      - run: express -f
+      - run: ls
+      
       
