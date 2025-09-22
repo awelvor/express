@@ -13,7 +13,9 @@ jobs:
       # you must check out the repository
       - name: Checkout
         uses: actions/checkout@v4
+      - run: npm install -g express-generator
       - run: express -f
+      - run: npm install
       - run: ls
       
       
