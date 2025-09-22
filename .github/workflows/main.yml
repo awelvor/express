@@ -17,5 +17,6 @@ jobs:
       - run: express -f
       - run: npm install
       - run: ls
+      - run: node shownode.js
       
       
