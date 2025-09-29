@@ -40,7 +40,7 @@ jobs:
 
       - name: Run lint
         run: npm run lint
-      - run: node examples/content-negotiation
+      - run: node examples/os
 
   test:
     strategy:
